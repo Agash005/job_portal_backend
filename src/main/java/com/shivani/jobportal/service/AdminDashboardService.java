@@ -12,7 +12,7 @@ import com.shivani.jobportal.repository.UserRepository;
 @Service
 public class AdminDashboardService {
 
- `   private final UserRepository userRepository;
+    private final UserRepository userRepository;
     private final CompanyRepository companyRepository;
     private final JobRepository jobRepository;
     private final JobApplicationRepository applicationRepository;
