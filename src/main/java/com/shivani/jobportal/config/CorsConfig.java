@@ -12,8 +12,8 @@ public class CorsConfig implements WebMvcConfigurer {
 
         registry.addMapping("/**")
                 .allowedOrigins(
-                    "http://localhost:5173", 
-                    "https://shivani-job-portal-frontend.vercel.app"
+                    "http://192.168.1.6:5173", 
+                    "https://talentify-job-portal.vercel.app"
                 )
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*");
