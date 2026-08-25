@@ -8,8 +8,13 @@ public class LoginResponse {
     private String phone;
     private String role;
 
-    public LoginResponse(Long id, String name, String email,
-                         String phone, String role) {
+    public LoginResponse(
+            Long id,
+            String name,
+            String email,
+            String phone,
+            String role) {
+
         this.id = id;
         this.name = name;
         this.email = email;
@@ -36,4 +41,6 @@ public class LoginResponse {
     public String getRole() {
         return role;
     }
+
+
 }

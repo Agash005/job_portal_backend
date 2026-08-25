@@ -2,6 +2,7 @@ package com.shivani.jobportal.controller;
 
 import java.util.List;
 
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.shivani.jobportal.dto.LoginResponse;
 import com.shivani.jobportal.entity.User;
 import com.shivani.jobportal.service.UserService;
+
 
 @RestController
 @RequestMapping("/api/users")
@@ -58,5 +60,6 @@ public class UserController {
 	                user.getPhone(),
 	                user.getRole()
 	        );
+	    
 	    }
 }

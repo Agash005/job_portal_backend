@@ -12,6 +12,7 @@ public class CorsConfig implements WebMvcConfigurer {
 
         registry.addMapping("/**")
                 .allowedOrigins(
+                	"http://localhost:5173",	
                     "http://192.168.1.6:5173", 
                     "https://talentify-job-portal.vercel.app"
                 )
